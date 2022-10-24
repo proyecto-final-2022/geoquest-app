@@ -12,11 +12,11 @@
               "orientation": "Up"
             },
             "model": {
-              "source": "models.cubone.model",
-              "type": "OBJ",
-              "position": [0,-2,0],
-              "scale": [1,1,1],
-              "rotation": [90,180,0],
+              "source": "models.key.model",
+              "type": "VRX",
+              "position": [0,0,0],
+              "scale": [0.1,0.1,0.1],
+              "rotation": [0,0,0],
               "resources": [
                 "models.cubone.materials"
               ]
@@ -97,8 +97,8 @@
               "orientation": "Up"
             },
             "model": {
-              "source": "models.key.model",
-              "type": "OBJ",
+              "source": "models.folder.model",
+              "type": "VRX",
               "position": [0,0,0],
               "scale": [0.1,0.1,0.1],
               "rotation": [0,0,0],
@@ -139,11 +139,11 @@
               "orientation": "Up"
             },
             "model": {
-              "source": "models.cubone.model",
-              "type": "OBJ",
-              "position": [0,-2,0],
-              "scale": [1,1,1],
-              "rotation": [90,180,0],
+              "source": "models.box.model",
+              "type": "VRX",
+              "position": [0,0,0],
+              "scale": [0.1,0.1,0.1],
+              "rotation": [0,0,0],
               "resources": [
                 "models.cubone.materials"
               ]
@@ -155,49 +155,6 @@
                   "params": [
                     {
                       "short": "Apa, me encontraste en la escena 3!",
-                      "long": "Me encontre con kubone en '<lugar>' y me dijo que <bla bla>."
-                    }
-                  ]
-                }
-              ],
-              [
-                {
-                  "name": "nextScene",
-                  "params": []
-                }
-              ]
-            ]
-          }
-        }
-      ]
-    },
-    {
-      "objects": [
-        {
-          "type": "WithImageRecognition",
-          "typeProps": { 
-            "target": {
-              "source": "images.mate",
-              "physicalWidth": 0.2,
-              "orientation": "Up"
-            },
-            "model": {
-              "source": "models.cubone.model",
-              "type": "OBJ",
-              "position": [0,-2,0],
-              "scale": [1,1,1],
-              "rotation": [90,180,0],
-              "resources": [
-                "models.cubone.materials"
-              ]
-            },
-            "interactions": [
-              [
-                {
-                  "name": "showHint",
-                  "params": [
-                    {
-                      "short": "Apa, me encontraste en la escena 4!",
                       "long": "Me encontre con kubone en '<lugar>' y me dijo que <bla bla>."
                     }
                   ]

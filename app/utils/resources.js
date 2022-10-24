@@ -21,7 +21,11 @@ export const resources = {
     },
     page: {
       model: require("../../res/models/Page/model.vrx")
+    },
+    box: {
+      model: require("../../res/models/SmallBoxWithKeyhole/model.vrx")
     }
+    
 
   }
 };
