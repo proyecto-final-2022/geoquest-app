@@ -20,7 +20,7 @@ export default function WithImageRecognition({id, typeProps, globalCtx}) {
   const [runFade, setRunFade] = useState(false);
 
   const {target, model, interactions} = typeProps;
-  const targetID = target.source + "_" + questState.scene;
+  const targetID = target.source + "_" + questState.scene
 
   const targetProps = {
     ...target,

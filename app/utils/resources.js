@@ -2,7 +2,10 @@
 export const resources = {
   images: {
     exampleImage: require("../../res/images/exampleImage.jpg"),
-    duende: require("../../res/images/duende.jpg")
+    duende: require("../../res/images/duende.jpg"),
+    argentina: require("../../res/images/argentina.jpg"),
+    boquita: require("../../res/images/boquita.jpg"),
+    mate: require("../../res/images/mate.jpg")
   },
 
   models: {
@@ -12,7 +15,14 @@ export const resources = {
     },
     key: {
       model: require("../../res/models/Key/model.vrx")
+    },
+    folder: {
+      model: require("../../res/models/Folder/model.vrx")
+    },
+    page: {
+      model: require("../../res/models/Page/model.vrx")
     }
+
   }
 };
 
